@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/AdrianHsu/focus-intro-website.git"
   },
+  "dependencies": {
+    "express": "*"
+  },
   "author": "AdrianHsu",
   "license": "ISC",
   "bugs": {
