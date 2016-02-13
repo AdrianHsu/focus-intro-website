@@ -3791,7 +3791,7 @@
 	}
 
 	body.landing #footer {
-		background-color: #263238;
+		background-color: rgba(29, 36, 42, 0.6);
 	}
 
 	body.is-mobile.landing #page-wrapper {
