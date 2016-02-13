@@ -1,0 +1,19 @@
+{
+  "name": "stay-focused",
+  "version": "1.0.0",
+  "description": "focus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianHsu/focus-intro-website.git"
+  },
+  "author": "AdrianHsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianHsu/focus-intro-website/issues"
+  },
+  "homepage": "https://github.com/AdrianHsu/focus-intro-website#readme"
+}
