@@ -3812,3 +3812,85 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+/* About Us */
+
+#aboutus .profile {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    max-width: 850px;
+    margin: auto
+}
+
+#aboutus .profile .portrait {
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    position: relative;
+    margin: 0 10px 20px
+}
+
+#aboutus .profile .portrait .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    background: rgba(26, 28, 34, .6);
+    color: #fff;
+    opacity: 0;
+    z-index: 9;
+    line-height: 1.25;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -moz-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    font-family: "Gotham"
+}
+
+#aboutus .profile .portrait .overlay.teamYou {
+    background: 0 0;
+    opacity: 1
+}
+
+#aboutus .profile .portrait .overlay h3 {
+    font-size: 1.3em;
+    margin-top: 20px
+}
+
+#aboutus .profile .portrait .overlay h6 {
+    font-size: .6em;
+    font-weight: 700;
+    margin: 10px
+}
+
+#aboutus .profile .portrait .overlay p {
+    font-size: .7em
+}
+
+#aboutus .profile .portrait img {
+    height: 220px;
+    min-width: 220px;
+    -moz-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out
+}
+
+#aboutus .profile .portrait:hover>img {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    opacity: .5
+}
+
+#aboutus .profile .portrait:hover>.overlay {
+    opacity: 1
+}
